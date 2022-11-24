@@ -130,8 +130,8 @@ id_list["MYID"] = data["sid"]
 id_list["FRDID"] = data["fid"]
 id_list["ACT"] = data["act"]
 
-#cnt = Q1(id_list)
-# Q1_rate(cnt)
+cnt = Q1(id_list)
+Q1_rate(cnt)
 Q2(id_list, 6)
-# Q3(data)
-# Q3_cnt_empty(data)
+Q3(data)
+DQ3_cnt_empty(data)
